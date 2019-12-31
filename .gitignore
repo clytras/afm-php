@@ -20,3 +20,6 @@ composer.phar
 
 # OS garbage
 .DS_Store
+
+# PHPUnit
+.phpunit.result.cache

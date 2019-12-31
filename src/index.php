@@ -72,7 +72,7 @@ function generateAFM(array $params = []): string
   $pre99 = $params['pre99'] ?? false;
   $individual = $params['individual'] ?? false;
   $legalEntity = $params['legalEntity'] ?? false;
-  $repeatTolerance = $param['repeatTolerance'] ?? null;
+  $repeatTolerance = $params['repeatTolerance'] ?? null;
   $valid = $params['valid'] ?? true;
 
   $min = $legalEntity ? 7 : 1;
