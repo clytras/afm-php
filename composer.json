@@ -1,0 +1,22 @@
+{
+  "name": "lytrax/afm",
+  "description": "Greek AFM (TIN) validator and generator",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Christos Lytras",
+      "email": "christos.lytras@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Lytrax\\AFM\\": "src/"
+    },
+    "files": ["src/index.php"]
+  },
+  "require-dev": {
+    "phpunit/phpunit": "8"
+  }
+}
