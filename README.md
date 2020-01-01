@@ -55,7 +55,7 @@ string(9) "853003357"
 * `$afm: string` - A number to be checked
 * `$params: array (optional)` - Optional associative array for named parameters
 * `$params['extendedResult']: boolean = false` - Return a `boolean` or `array`
-* Returns: `boolean` or `array` (Associative array with `valid: boolean` and `error: string ('length' or 'nan' or 'zero' or 'invalid')`)
+* **Returns**: `boolean` or `array` (Associative array with `valid: boolean` and `error: string ('length' or 'nan' or 'zero' or 'invalid')`)
 
 Example:
 ```php
@@ -76,7 +76,7 @@ array(2) {
 * `$params['legalEntity']: boolean = false` - Νομικές οντότητες (ξεκινάει με 7-9)
 * `$params['repeatTolerance']: null|int (optional)` - Number for max repeat tolerance (0 for no repeats, unspecified for no check)
 * `$params['valid']: boolean = true` - Generate valid or invalid AFM
-* Returns: `string` - A valid or invalid 9 digit AFM number
+* **Returns**: `string` - A valid or invalid 9 digit AFM number
 
 Example:
 ```php
@@ -89,7 +89,7 @@ string(9) "335151580"
 ```
 
 **generateValidAFM** - Same as `generateAFM` with `$params['valid']` force and override to `true`
-* Returns: `string` - A valid 9 digit AFM number
+* **Returns**: `string` - A valid 9 digit AFM number
 
 Example:
 ```php
@@ -98,7 +98,7 @@ string(9) "070825250"
 ```
 
 **generateInvalidAFM** - Same as `generateAFM` with `$params['valid']` force and override to `false`
-* Returns: `string` - An invalid 9 digit AFM number
+* **Returns**: `string` - An invalid 9 digit AFM number
 
 Example:
 ```php
@@ -111,7 +111,7 @@ string(9) "877577341"
 Clone this repository, intall packages and run PHPUnit:
 
 ```
-git clone https://github.com/clytras/afm.git && cd afm
+git clone https://github.com/clytras/afm-php.git && cd afm-php
 composer install
 ./vendor/bin/phpunit --testdox
 ```
