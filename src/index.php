@@ -102,7 +102,7 @@ function generateAFM(array $params = []): string
   }
 
   $validator = $sum % 11;
-  $d9Valid = $validator >= 10 ? 0 : $validator;
+  $d9Valid = $validator % 10;
   $d9 = $valid ? $d9Valid : getRandomInt(0, 9, $d9Valid);
 
   return $body.$d9;

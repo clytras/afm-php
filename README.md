@@ -1,6 +1,6 @@
 # Greek TIN/AFM Validator and Generator
 
-[![Linux Build Status](https://img.shields.io/travis/clytras/afm-php.svg?style=flat)](https://travis-ci.org/clytras/afm-php.svg?branch=master) [![Packagist](https://img.shields.io/packagist/v/lytrax/afm)](https://packagist.org/packages/lytrax/afm)
+[![Linux Build Status](https://img.shields.io/travis/clytras/afm-php.svg?style=flat)](https://travis-ci.org/clytras/afm-php?branch=master) [![Packagist](https://img.shields.io/packagist/v/lytrax/afm)](https://packagist.org/packages/lytrax/afm)
 
 ![Logo](https://github.com/clytras/afm-php/raw/master/resources/LytraxAFM_logo.png)
 
@@ -116,6 +116,12 @@ Clone this repository, intall packages and run PHPUnit:
 git clone https://github.com/clytras/afm-php.git && cd afm-php
 composer install
 ./vendor/bin/phpunit --testdox
+```
+
+Run Demo:
+
+```
+php ./demo/index.php
 ```
 
 ## Changelog
